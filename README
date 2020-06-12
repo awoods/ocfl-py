@@ -55,8 +55,8 @@ This table directly corresponds to the OCFL-defined `validation codes
 Object Errors
 `````````````
 
-.. rst-class:: special
-   :table.special tr:nth-child(3) {color: red;}
+.. table:: Table Title
+   :class: bg-green-light
 
 ==== ==================================
 Code Reference
