@@ -1,8 +1,7 @@
 <style
   type="text/css">
-td.nth-child(2) {background: red;}
-p {background: red;}
-h1 {background: green;}
+p {color: red;}
+h1 {color: green;}
 </style>
 
 | Code | Reference |
