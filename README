@@ -52,110 +52,115 @@ The validator tool currently provides test coverage for the following requiremen
 This table directly corresponds to the OCFL-defined `validation codes
 <https://github.com/OCFL/spec/blob/master/validation/validation-codes.md>`_
 
-## Object Errors
+- Object Errors
 
-| Code | Reference
-| --- | --- |
-| <div class="bg-green-light">E001</div> | https://ocfl.io/draft/spec/#E001
-| E002 | https://ocfl.io/draft/spec/#E002
-| E003 | https://ocfl.io/draft/spec/#E003
-| E004 | https://ocfl.io/draft/spec/#E004
-| E005 | https://ocfl.io/draft/spec/#E005
-| E006 | https://ocfl.io/draft/spec/#E006
-| E007 | https://ocfl.io/draft/spec/#E007
-| E008 | https://ocfl.io/draft/spec/#E008
-| E009 | https://ocfl.io/draft/spec/#E009
-| E010 | https://ocfl.io/draft/spec/#E010
-| E011 | https://ocfl.io/draft/spec/#E011
-| E012 | https://ocfl.io/draft/spec/#E012
-| E013 | https://ocfl.io/draft/spec/#E013
-| E014 | https://ocfl.io/draft/spec/#E014
-| E015 | https://ocfl.io/draft/spec/#E015
-| E016 | https://ocfl.io/draft/spec/#E016
-| E017 | https://ocfl.io/draft/spec/#E017
-| E018 | https://ocfl.io/draft/spec/#E018
-| E019 | https://ocfl.io/draft/spec/#E019
-| E020 | https://ocfl.io/draft/spec/#E020
-| E021 | https://ocfl.io/draft/spec/#E021
-| E022 | https://ocfl.io/draft/spec/#E022
-| E023 | https://ocfl.io/draft/spec/#E023
-| E024 | https://ocfl.io/draft/spec/#E024
-| E025 | https://ocfl.io/draft/spec/#E025
-| E026 | https://ocfl.io/draft/spec/#E026
-| E027 | https://ocfl.io/draft/spec/#E027
-| E028 | https://ocfl.io/draft/spec/#E028
-| E029 | https://ocfl.io/draft/spec/#E029
-| E030 | https://ocfl.io/draft/spec/#E030
-| E031 | https://ocfl.io/draft/spec/#E031
-| E032 | https://ocfl.io/draft/spec/#E032
-| E033 | https://ocfl.io/draft/spec/#E033
-| E034 | https://ocfl.io/draft/spec/#E034
-| E035 | https://ocfl.io/draft/spec/#E035
-| E036 | https://ocfl.io/draft/spec/#E036
-| E037 | https://ocfl.io/draft/spec/#E037
-| E038 | https://ocfl.io/draft/spec/#E038
-| E039 | https://ocfl.io/draft/spec/#E039
-| E040 | https://ocfl.io/draft/spec/#E040
-| E041 | https://ocfl.io/draft/spec/#E041
-| E042 | https://ocfl.io/draft/spec/#E042
-| E043 | https://ocfl.io/draft/spec/#E043
-| E044 | https://ocfl.io/draft/spec/#E044
-| E045 | https://ocfl.io/draft/spec/#E045
-| E046 | https://ocfl.io/draft/spec/#E046
-| E047 | https://ocfl.io/draft/spec/#E047
-| E048 | https://ocfl.io/draft/spec/#E048
-| E049 | https://ocfl.io/draft/spec/#E049
-| E050 | https://ocfl.io/draft/spec/#E050
-| E051 | https://ocfl.io/draft/spec/#E051
-| E052 | https://ocfl.io/draft/spec/#E052
-| E053 | https://ocfl.io/draft/spec/#E053
-| E054 | https://ocfl.io/draft/spec/#E054
-| E055 | https://ocfl.io/draft/spec/#E055
-| E056 | https://ocfl.io/draft/spec/#E056
-| E057 | https://ocfl.io/draft/spec/#E057'
-| E058 | https://ocfl.io/draft/spec/#E058
-| E059 | https://ocfl.io/draft/spec/#E059
-| E060 | https://ocfl.io/draft/spec/#E060
-| E061 | https://ocfl.io/draft/spec/#E061
-| E062 | https://ocfl.io/draft/spec/#E062
-| E063 | https://ocfl.io/draft/spec/#E063
-| E064 | https://ocfl.io/draft/spec/#E064
-| E066 | https://ocfl.io/draft/spec/#E066
-| E067 | https://ocfl.io/draft/spec/#E067
-| E068 | https://ocfl.io/draft/spec/#E068
-| E069 | https://ocfl.io/draft/spec/#E069
-| E070 | https://ocfl.io/draft/spec/#E070
-| E071 | https://ocfl.io/draft/spec/#E071
-| E072 | https://ocfl.io/draft/spec/#E072
-| E073 | https://ocfl.io/draft/spec/#E073
-| E074 | https://ocfl.io/draft/spec/#E074
-| E075 | https://ocfl.io/draft/spec/#E075
-| E076 | https://ocfl.io/draft/spec/#E076
-| E077 | https://ocfl.io/draft/spec/#E077
-| E078 | https://ocfl.io/draft/spec/#E078
-| E079 | https://ocfl.io/draft/spec/#E079
-| E080 | https://ocfl.io/draft/spec/#E080
-| E081 | https://ocfl.io/draft/spec/#E081
-| E082 | https://ocfl.io/draft/spec/#E082
-| E083 | https://ocfl.io/draft/spec/#E083
-| E084 | https://ocfl.io/draft/spec/#E084
-| E085 | https://ocfl.io/draft/spec/#E085
-| E086 | https://ocfl.io/draft/spec/#E086
-| E087 | https://ocfl.io/draft/spec/#E087
-| E088 | https://ocfl.io/draft/spec/#E088
-| E089 | https://ocfl.io/draft/spec/#E089
-| E090 | https://ocfl.io/draft/spec/#E090
-| E091 | https://ocfl.io/draft/spec/#E091
-| E092 | https://ocfl.io/draft/spec/#E092
-| E093 | https://ocfl.io/draft/spec/#E093
-| E094 | https://ocfl.io/draft/spec/#E094
-| E095 | https://ocfl.io/draft/spec/#E095
-| E096 | https://ocfl.io/draft/spec/#E096
-| E097 | https://ocfl.io/draft/spec/#E097
-| E098 | https://ocfl.io/draft/spec/#E098
-| E099 | https://ocfl.io/draft/spec/#E099
-| E100 | https://ocfl.io/draft/spec/#E100
-| E101 | https://ocfl.io/draft/spec/#E101
+.. rst-class:: special
+table.special tr:nth-child(3) {color: red;}
+
+==== =========
+Code Reference
+---- ---------
+<div class="bg-green-light">E001</div> <https://ocfl.io/draft/spec/#E001>
+E002 <https://ocfl.io/draft/spec/#E002>
+E003 <https://ocfl.io/draft/spec/#E003>
+E004 <https://ocfl.io/draft/spec/#E004>
+E005 <https://ocfl.io/draft/spec/#E005>
+E006 <https://ocfl.io/draft/spec/#E006>
+E007 <https://ocfl.io/draft/spec/#E007>
+E008 <https://ocfl.io/draft/spec/#E008>
+E009 <https://ocfl.io/draft/spec/#E009>
+E010 <https://ocfl.io/draft/spec/#E010>
+E011 <https://ocfl.io/draft/spec/#E011>
+E012 <https://ocfl.io/draft/spec/#E012>
+E013 <https://ocfl.io/draft/spec/#E013>
+E014 <https://ocfl.io/draft/spec/#E014>
+E015 <https://ocfl.io/draft/spec/#E015>
+E016 <https://ocfl.io/draft/spec/#E016>
+E017 <https://ocfl.io/draft/spec/#E017>
+E018 <https://ocfl.io/draft/spec/#E018>
+E019 <https://ocfl.io/draft/spec/#E019>
+E020 <https://ocfl.io/draft/spec/#E020>
+E021 <https://ocfl.io/draft/spec/#E021>
+E022 <https://ocfl.io/draft/spec/#E022>
+E023 <https://ocfl.io/draft/spec/#E023>
+E024 <https://ocfl.io/draft/spec/#E024>
+E025 <https://ocfl.io/draft/spec/#E025>
+E026 <https://ocfl.io/draft/spec/#E026>
+E027 <https://ocfl.io/draft/spec/#E027>
+E028 <https://ocfl.io/draft/spec/#E028>
+E029 <https://ocfl.io/draft/spec/#E029>
+E030 <https://ocfl.io/draft/spec/#E030>
+E031 <https://ocfl.io/draft/spec/#E031>
+E032 <https://ocfl.io/draft/spec/#E032>
+E033 <https://ocfl.io/draft/spec/#E033>
+E034 <https://ocfl.io/draft/spec/#E034>
+E035 <https://ocfl.io/draft/spec/#E035>
+E036 <https://ocfl.io/draft/spec/#E036>
+E037 <https://ocfl.io/draft/spec/#E037>
+E038 <https://ocfl.io/draft/spec/#E038>
+E039 <https://ocfl.io/draft/spec/#E039>
+E040 <https://ocfl.io/draft/spec/#E040>
+E041 <https://ocfl.io/draft/spec/#E041>
+E042 <https://ocfl.io/draft/spec/#E042>
+E043 <https://ocfl.io/draft/spec/#E043>
+E044 <https://ocfl.io/draft/spec/#E044>
+E045 <https://ocfl.io/draft/spec/#E045>
+E046 <https://ocfl.io/draft/spec/#E046>
+E047 <https://ocfl.io/draft/spec/#E047>
+E048 <https://ocfl.io/draft/spec/#E048>
+E049 <https://ocfl.io/draft/spec/#E049>
+E050 <https://ocfl.io/draft/spec/#E050>
+E051 <https://ocfl.io/draft/spec/#E051>
+E052 <https://ocfl.io/draft/spec/#E052>
+E053 <https://ocfl.io/draft/spec/#E053>
+E054 <https://ocfl.io/draft/spec/#E054>
+E055 <https://ocfl.io/draft/spec/#E055>
+E056 <https://ocfl.io/draft/spec/#E056>
+E057 <https://ocfl.io/draft/spec/#E057>
+E058 <https://ocfl.io/draft/spec/#E058>
+E059 <https://ocfl.io/draft/spec/#E059>
+E060 <https://ocfl.io/draft/spec/#E060>
+E061 <https://ocfl.io/draft/spec/#E061>
+E062 <https://ocfl.io/draft/spec/#E062>
+E063 <https://ocfl.io/draft/spec/#E063>
+E064 <https://ocfl.io/draft/spec/#E064>
+E066 <https://ocfl.io/draft/spec/#E066>
+E067 <https://ocfl.io/draft/spec/#E067>
+E068 <https://ocfl.io/draft/spec/#E068>
+E069 <https://ocfl.io/draft/spec/#E069>
+E070 <https://ocfl.io/draft/spec/#E070>
+E071 <https://ocfl.io/draft/spec/#E071>
+E072 <https://ocfl.io/draft/spec/#E072>
+E073 <https://ocfl.io/draft/spec/#E073>
+E074 <https://ocfl.io/draft/spec/#E074>
+E075 <https://ocfl.io/draft/spec/#E075>
+E076 <https://ocfl.io/draft/spec/#E076>
+E077 <https://ocfl.io/draft/spec/#E077>
+E078 <https://ocfl.io/draft/spec/#E078>
+E079 <https://ocfl.io/draft/spec/#E079>
+E080 <https://ocfl.io/draft/spec/#E080>
+E081 <https://ocfl.io/draft/spec/#E081>
+E082 <https://ocfl.io/draft/spec/#E082>
+E083 <https://ocfl.io/draft/spec/#E083>
+E084 <https://ocfl.io/draft/spec/#E084>
+E085 <https://ocfl.io/draft/spec/#E085>
+E086 <https://ocfl.io/draft/spec/#E086>
+E087 <https://ocfl.io/draft/spec/#E087>
+E088 <https://ocfl.io/draft/spec/#E088>
+E089 <https://ocfl.io/draft/spec/#E089>
+E090 <https://ocfl.io/draft/spec/#E090>
+E091 <https://ocfl.io/draft/spec/#E091>
+E092 <https://ocfl.io/draft/spec/#E092>
+E093 <https://ocfl.io/draft/spec/#E093>
+E094 <https://ocfl.io/draft/spec/#E094>
+E095 <https://ocfl.io/draft/spec/#E095>
+E096 <https://ocfl.io/draft/spec/#E096>
+E097 <https://ocfl.io/draft/spec/#E097>
+E098 <https://ocfl.io/draft/spec/#E098>
+E099 <https://ocfl.io/draft/spec/#E099>
+E100 <https://ocfl.io/draft/spec/#E100>
+E101 <https://ocfl.io/draft/spec/#E101>
+==== ==================================
 
 
 Contributing
