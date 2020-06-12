@@ -1,3 +1,5 @@
+<style type="text/css">
+td.nth-child(2) {background: red;}
 
 | Code | Reference |
 | ---- | --------- |
